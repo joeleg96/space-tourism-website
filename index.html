@@ -27,14 +27,22 @@
          <p class="destination menu-option tp8"><a href="./destination-moon.html"><strong>01</strong> Destination</p></a>
          <p class="crew menu-option tp8"><a><strong>02</strong> Crew</p></a>
          <p class="technology menu-option tp8"><a><strong>03</strong> Technology</p></a>
+         <img class="hamburger-menu" src="./assets/shared/icon-hamburger.svg" alt="nav-menu">
       </div>
     </div>
   </nav>
 
-  <nav class="mobile-nav-container">
-    <div class="mobile-nav-flex">
-      <img class="logo" src="./assets/shared/logo.svg" alt="logo">
-      <img class="hamburger-menu" src="./assets/shared/icon-hamburger.svg" alt="nav-menu">
+  <nav class="mobile-nav-container hide">
+    <div class="slide-menu">
+      <div class="close-icon-container">
+        <img class="close-icon" src="./assets/shared/icon-close.svg" alt="close-icon">
+      </div>
+      <div class="slide-flex">
+        <a href="./index.html"><p class="slide-menu-option tp8"><span class="slide-menu-span">00</span> HOME</p></a>
+        <a href="./destination-moon.html"><p class="slide-menu-option tp8"><span class="slide-menu-span">01</span> DESTINATION</p></a>
+        <a href="./crew-commander.html"><p class="slide-menu-option tp8"><span class="slide-menu-span">02</span> CREW</p></a>
+        <a href="./technology-vehicle.html"><p class="slide-menu-option tp8"><span class="slide-menu-span">03</span> TECHNOLOGY</p></a>
+      </div>
     </div>
   </nav>
 
@@ -53,4 +61,6 @@
     </div>
   </main>
 </body>
+<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+<script src="./index.js" charset="UTF-8"></script>
 </html>
