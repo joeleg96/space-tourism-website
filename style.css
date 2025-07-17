@@ -467,7 +467,12 @@ a {
     }
 }
 
-@media screen and (min-width: 1124px) {
+@media screen and (min-width: 1200px) {
+    .destination-container {
+        max-width: 78rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .destination-flex {
         display: flex;
@@ -479,6 +484,7 @@ a {
 
     .destination-img {
         width: 30rem;
+        margin-right: 5rem;
     }
 
     .destination-choices {
