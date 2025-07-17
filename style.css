@@ -67,7 +67,7 @@
 .homepage-body {
     background-image: url("./assets/home/background-home-tablet.jpg");
     background-repeat: no-repeat;
-    background-size: 100vw 100vh;
+    background-size: 100vw 130vh;
     margin: 0;
     padding-bottom: 2rem;
 }
@@ -80,7 +80,7 @@
 }
 
 .logo {
-    margin-left: 3rem;
+    margin-left: 1rem;
     margin-top: 1rem;
 }
 
@@ -94,7 +94,7 @@
 }
 
 .hamburger-menu {
-    margin-right: 3rem;
+    margin-right: 1rem;
     cursor: pointer;
 }
 
