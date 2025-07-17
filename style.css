@@ -328,6 +328,10 @@ a {
     .want-to-travel {
         margin: 0;
     }
+
+    .explore-container {
+        margin-left: 5rem;
+    }
 }
 
 /* Destination Page */
