@@ -184,6 +184,7 @@
 
 .space-large {
     margin: 0;
+    font-size: 8rem;
 }
 
 .face-it {
@@ -191,8 +192,8 @@
     height: min-content;
     color: var(--blue-300);
     margin-top: -1rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .explore-container {
@@ -269,6 +270,10 @@ a {
     .body-text-container {
         width: 35rem;
         margin-top: 5.5rem;
+    }
+
+    .space-large {
+        font-size: 9rem;
     }
 
     .want-to-travel {
