@@ -1,32 +1,124 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
   
   <title>Frontend Mentor | Space tourism website</title>
 </head>
-<body>
+<body class="technology-body">
+  <nav class="nav-container">
+    <div class="nav-flex">
+      <img class="logo" src="./assets/shared/logo.svg" alt="logo">
+      <div class="nav-menu">
+         <p class="home menu-option tp8"><a href="./index.html"><strong class="home-strong">00</strong> Home</p></a>
+         <p class="destination menu-option tp8"><a href="./destination-moon.html"><strong>01</strong> Destination</p></a>
+         <p class="crew menu-option tp8"><a href="./crew-commander.html"><strong>02</strong> Crew</p></a>
+         <p class="technology menu-option tp8"><a href="./technology-vehicle.html"><strong>03</strong> Technology</p></a>
+         <img class="hamburger-menu" src="./assets/shared/icon-hamburger.svg" alt="nav-menu">
+      </div>
+    </div>
+  </nav>
 
-  00 Home
-  01 Destination
-  02 Crew
-  03 Technology
+  <nav class="mobile-nav-container hide">
+    <div class="slide-menu">
+      <div class="close-icon-container">
+        <img class="close-icon" src="./assets/shared/icon-close.svg" alt="close-icon">
+      </div>
+      <div class="slide-flex">
+        <a href="./index.html"><p class="slide-menu-option tp8"><span class="slide-menu-span">00</span> HOME</p></a>
+        <a href="./destination-moon.html"><p class="slide-menu-option tp8"><span class="slide-menu-span">01</span> DESTINATION</p></a>
+        <a href="./crew-commander.html"><p class="slide-menu-option tp8"><span class="slide-menu-span">02</span> CREW</p></a>
+        <a href="./technology-vehicle.html"><p class="slide-menu-option tp8"><span class="slide-menu-span">03</span> TECHNOLOGY</p></a>
+      </div>
+    </div>
+  </nav>
 
-  03 Space launch 101
+  <main>
+    <!-- Launch Vehicle -->
+    <div class="technology-container launch-vehicle-container">
+      <div class="technology-header">
+        <p class="technology-header-text tp6"><span class="technology-header-span">03</span> SPACE LAUNCH 101</p>
+      </div>
+      <div class="technology-content-container">
+        <div class="technology-img-container">
+          <img class="technology-img" src="./assets/technology/image-launch-vehicle-portrait.jpg" alt="spaceport image">
+        </div>
+        <div class="page-text-flex-container">
+          <div class="page-container">
+            <button id="launch-vehicle" class="page-number-btn launch-vehicle-btn tp4">1</button>
+            <button id="spaceport" class="page-number-btn spaceport-btn tp4">2</button>
+            <button id="space-capsule" class="page-number-btn space-capsule-btn tp4">3</button>
+          </div>
+          <div class="technology-explanation-text-container">
+            <p class="terminology-title tp4">THE TERMINOLOGY...</p>
+            <p class="technology-name tp3">LAUNCH VEHICLE</p>
+            <p class="technology-description tp9">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  1
-  2
-  3
+    <!-- Spaceport -->
+    <div class="technology-container spaceport-container hide">
+      <div class="technology-header">
+        <p class="technology-header-text tp6"><span class="technology-header-span">03</span> SPACE LAUNCH 101</p>
+      </div>
+      <div class="technology-content-container">
+        <div class="technology-img-container">
+          <img class="technology-img" src="./assets/technology/image-spaceport-portrait.jpg" alt="spaceport image">
+        </div>
+        <div class="page-text-flex-container">
+          <div class="page-container">
+            <button id="launch-vehicle" class="page-number-btn launch-vehicle-btn tp4">1</button>
+            <button id="spaceport" class="page-number-btn spaceport-btn tp4">2</button>
+            <button id="space-capsule" class="page-number-btn space-capsule-btn tp4">3</button>
+          </div>
+          <div class="technology-explanation-text-container">
+            <p class="terminology-title tp4">THE TERMINOLOGY...</p>
+            <p class="technology-name tp3">SPACEPORT</p>
+            <p class="technology-description tp9">A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  The terminology...
-  Launch vehicle
+    <!-- Space Capsule -->
+    <div class="technology-container space-capsule-container hide">
+      <div class="technology-header">
+        <p class="technology-header-text tp6"><span class="technology-header-span">03</span> SPACE LAUNCH 101</p>
+      </div>
+      <div class="technology-content-container">
+        <div class="technology-img-container">
+          <img class="technology-img" src="./assets/technology/image-space-capsule-portrait.jpg" alt="spaceport image">
+        </div>
+        <div class="page-text-flex-container">
+          <div class="page-container">
+            <button id="launch-vehicle" class="page-number-btn launch-vehicle-btn tp4">1</button>
+            <button id="spaceport" class="page-number-btn spaceport-btn tp4">2</button>
+            <button id="space-capsule" class="page-number-btn space-capsule-btn tp4">3</button>
+          </div>
+          <div class="technology-explanation-text-container">
+            <p class="terminology-title tp4">THE TERMINOLOGY...</p>
+            <p class="technology-name tp3">SPACE CAPSULE</p>
+            <p class="technology-description tp9">A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 
-  A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a 
-  payload from Earth's surface to space, usually to Earth orbit or beyond. Our 
-  WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, 
-  it's quite an awe-inspiring sight on the launch pad!
+
 </body>
+<script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+<script src="./index.js" charset="UTF-8"></script>
 </html>
